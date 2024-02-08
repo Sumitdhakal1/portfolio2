@@ -1,0 +1,203 @@
+.container-2 {
+  margin-left: 8.8rem;
+}
+.container-2 .home {
+  display: flex;
+  margin-top: 2rem;
+  gap: 1rem;
+}
+.container-2 .home .bx {
+  display: flex;
+  flex-direction: column;
+  background: white;
+  padding: 1rem 2.1rem;
+  border-radius: 0.4rem;
+  box-shadow: 1px 0px 5px -4px rgba(0, 0, 0, 0.75);
+}
+.container-2 .home .bx-1 {
+  padding: 2rem 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+.container-2 .home .bx-1 img {
+  width: 8rem;
+}
+.container-2 .home .bx-1 .name {
+  background: rgb(151, 70, 255);
+  padding: 0.6rem;
+  color: white;
+  border-radius: 0.4rem;
+}
+.container-2 .home .bx-2 {
+  gap: 0.4rem;
+  height: 7rem;
+}
+.container-2 .home .bx-2 .t {
+  font-size: 25px;
+  font-weight: 500;
+}
+.container-2 .home .bx-2 .p {
+  font-size: 30px;
+  font-weight: 500;
+}
+.container-2 .home .bx-2 .d {
+  font-size: 30px;
+  font-weight: 500;
+  margin-left: 1rem;
+}
+.container-2 .home .bx-3 {
+  height: 7rem;
+}
+.container-2 .home .bx-3 .l {
+  display: flex;
+  gap: 1rem;
+}
+.container-2 .home .bx-3 .l .icon {
+  font-size: 40px;
+}
+.container-2 .home .bx-3 .profile {
+  margin-top: 3.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.container-2 .home .bx-3 .profile .pro {
+  font-weight: 500;
+}
+.container-2 .home .bx-3 .profile .arrow {
+  font-size: 30px;
+}
+.container-2 .home .bx-4 {
+  height: 1rem;
+}
+.container-2 .home .bx-4 span {
+  text-transform: capitalize;
+}
+.container-2 .home-2 {
+  margin-top: 1rem;
+  display: flex;
+  gap: 1rem;
+}
+.container-2 .home-2 .bx {
+  background: white;
+  padding: 1rem 2rem;
+  border-radius: 0.4rem;
+  box-shadow: 1px 0px 5px -4px rgba(0, 0, 0, 0.75);
+}
+.container-2 .home-2 .bx-5 {
+  width: 10.2rem;
+}
+.container-2 .home-2 .bx-5 .ap {
+  display: flex;
+  flex-direction: column;
+}
+.container-2 .home-2 .bx-5 .ap span {
+  font-size: 20px;
+  font-weight: 500;
+}
+.container-2 .home-2 .bx-5 .ap .s-2 {
+  margin-left: 2rem;
+}
+.container-2 .home-2 .bx-5 .blog {
+  margin-top: 4rem;
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+}
+.container-2 .home-2 .bx-6 {
+  display: flex;
+  flex-direction: column;
+  margin-right: 2rem;
+  margin-top: -7.8rem;
+}
+.container-2 .home-2 .bx-6 ul {
+  display: flex;
+  gap: 1rem;
+  margin-left: -2rem;
+}
+.container-2 .home-2 .bx-6 ul li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container-2 .home-2 .bx-6 ul li img {
+  width: 2.5rem;
+}
+.container-2 .home-2 .bx-6 ul li span {
+  margin-top: 0.5rem;
+  font-size: 10px;
+  font-weight: bold;
+}
+.container-2 .home-2 .bx-6 .services {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.container-2 .home-2 .bx-6 .services .arrow {
+  font-size: 30px;
+}
+.container-2 .home-2 .bx-7 {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  height: 14rem;
+  margin-left: -2rem;
+  margin-top: -13.9rem;
+  width: 10.6rem;
+}
+.container-2 .home-2 .bx-7 .det {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container-2 .home-2 .bx-7 .det span {
+  font-size: 14px;
+  text-transform: uppercase;
+}
+.container-2 .home-2 .bx-7 .det .num {
+  font-size: 32px;
+}
+.container-2 .home-3 {
+  margin-top: 1rem;
+  display: flex;
+  gap: 1rem;
+}
+.container-2 .home-3 .bx {
+  display: flex;
+  flex-direction: column;
+  background: white;
+  padding: 1rem 2.1rem;
+  border-radius: 0.4rem;
+  box-shadow: 1px 0px 5px -4px rgba(0, 0, 0, 0.75);
+}
+.container-2 .home-3 .bx-8 h3 {
+  text-transform: capitalize;
+}
+.container-2 .home-3 .bx-8 .skills {
+  display: flex;
+  gap: 1rem;
+}
+.container-2 .home-3 .bx-8 .tools {
+  margin-top: 1rem;
+  display: flex;
+  gap: 1rem;
+}
+.container-2 .home-3 .bx-9 span {
+  font-size: 20px;
+  font-weight: bold;
+}
+.container-2 .home-3 .bx-9 .name {
+  margin-left: 1rem;
+}
+.container-2 .home-3 .bx-9 .get {
+  display: flex;
+  align-items: center;
+  margin-top: 3rem;
+  justify-content: space-between;
+}
+.container-2 .home-3 .bx-9 .get span {
+  font-size: 18px;
+  font-weight: 200;
+}/*# sourceMappingURL=homemain.css.map */

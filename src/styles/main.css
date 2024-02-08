@@ -1,0 +1,335 @@
+* x {
+  padding: 0;
+  margin: 0;
+}
+
+ul, li {
+  list-style: none;
+  text-transform: capitalize;
+}
+
+img {
+  width: 100%;
+  display: block;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 75%;
+  margin: 0 auto;
+}
+
+* x {
+  padding: 0;
+  margin: 0;
+}
+
+ul, li {
+  list-style: none;
+  text-transform: capitalize;
+}
+
+img {
+  width: 100%;
+  display: block;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 75%;
+  margin: 0 auto;
+}
+
+.container {
+  box-shadow: 2px 2px 6px -4px rgba(0, 0, 0, 0.75);
+  border-radius: 0.5rem;
+  background-color: white;
+}
+.container .navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.container .navbar .l-m .menu {
+  display: none;
+}
+.container .navbar nav {
+  display: contents;
+}
+.container .navbar nav .nav-middle {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.container .navbar nav .nav-middle li a {
+  color: black;
+}
+.container .navbar nav .nav-right .first {
+  padding: 0.6rem 2rem;
+  background: rgb(151, 70, 255);
+  border-radius: 2rem;
+}
+.container .navbar nav .nav-right .second {
+  padding: 0.6rem 0.8rem;
+  background: rgb(151, 70, 255);
+  border-radius: 2rem;
+}
+
+.active {
+  text-decoration: underline;
+}
+
+@media (max-width: 700px) {
+  .container .navbar {
+    flex-direction: column;
+    align-items: center;
+  }
+  .container .navbar .l-m {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.1rem;
+    align-items: center;
+  }
+  .container .navbar .l-m .logo-left {
+    margin-left: 0.5rem;
+  }
+  .container .navbar .l-m .logo-left .logo {
+    font-size: 25px;
+  }
+  .container .navbar .l-m .menu {
+    display: flex;
+    font-size: 22px;
+    margin-left: 0.5rem;
+    font-size: 25px;
+  }
+  .container .navbar nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .container .navbar nav .nav-middle {
+    flex-direction: column;
+    margin-right: 50px;
+  }
+  .container .navbar nav .nav-right {
+    margin-bottom: 1rem;
+    color: white;
+  }
+  .container .navbar .none {
+    display: none;
+  }
+  .container .navbar .block {
+    display: flex;
+  }
+}
+.container-2 {
+  margin-left: 8.8rem;
+}
+.container-2 .home {
+  display: flex;
+  margin-top: 2rem;
+  gap: 1rem;
+}
+.container-2 .home .bx {
+  display: flex;
+  flex-direction: column;
+  background: white;
+  padding: 1rem 2.1rem;
+  border-radius: 0.4rem;
+  box-shadow: 1px 0px 5px -4px rgba(0, 0, 0, 0.75);
+}
+.container-2 .home .bx-1 {
+  padding: 2rem 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+.container-2 .home .bx-1 img {
+  width: 8rem;
+}
+.container-2 .home .bx-1 .name {
+  background: rgb(151, 70, 255);
+  padding: 0.6rem;
+  color: white;
+  border-radius: 0.4rem;
+}
+.container-2 .home .bx-2 {
+  gap: 0.4rem;
+  height: 7rem;
+}
+.container-2 .home .bx-2 .t {
+  font-size: 25px;
+  font-weight: 500;
+}
+.container-2 .home .bx-2 .p {
+  font-size: 30px;
+  font-weight: 500;
+}
+.container-2 .home .bx-2 .d {
+  font-size: 30px;
+  font-weight: 500;
+  margin-left: 1rem;
+}
+.container-2 .home .bx-3 {
+  height: 7rem;
+}
+.container-2 .home .bx-3 .l {
+  display: flex;
+  gap: 1rem;
+}
+.container-2 .home .bx-3 .l .icon {
+  font-size: 40px;
+}
+.container-2 .home .bx-3 .profile {
+  margin-top: 3.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.container-2 .home .bx-3 .profile .pro {
+  font-weight: 500;
+}
+.container-2 .home .bx-3 .profile .arrow {
+  font-size: 30px;
+}
+.container-2 .home .bx-4 {
+  height: 1rem;
+}
+.container-2 .home .bx-4 span {
+  text-transform: capitalize;
+}
+.container-2 .home-2 {
+  margin-top: 1rem;
+  display: flex;
+  gap: 1rem;
+}
+.container-2 .home-2 .bx {
+  background: white;
+  padding: 1rem 2rem;
+  border-radius: 0.4rem;
+  box-shadow: 1px 0px 5px -4px rgba(0, 0, 0, 0.75);
+}
+.container-2 .home-2 .bx-5 {
+  width: 10.2rem;
+}
+.container-2 .home-2 .bx-5 .ap {
+  display: flex;
+  flex-direction: column;
+}
+.container-2 .home-2 .bx-5 .ap span {
+  font-size: 20px;
+  font-weight: 500;
+}
+.container-2 .home-2 .bx-5 .ap .s-2 {
+  margin-left: 2rem;
+}
+.container-2 .home-2 .bx-5 .blog {
+  margin-top: 4rem;
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+}
+.container-2 .home-2 .bx-6 {
+  display: flex;
+  flex-direction: column;
+  margin-right: 2rem;
+  margin-top: -7.8rem;
+}
+.container-2 .home-2 .bx-6 ul {
+  display: flex;
+  gap: 1rem;
+  margin-left: -2rem;
+}
+.container-2 .home-2 .bx-6 ul li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container-2 .home-2 .bx-6 ul li img {
+  width: 2.5rem;
+}
+.container-2 .home-2 .bx-6 ul li span {
+  margin-top: 0.5rem;
+  font-size: 10px;
+  font-weight: bold;
+}
+.container-2 .home-2 .bx-6 .services {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.container-2 .home-2 .bx-6 .services .arrow {
+  font-size: 30px;
+}
+.container-2 .home-2 .bx-7 {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  height: 14rem;
+  margin-left: -2rem;
+  margin-top: -13.9rem;
+  width: 10.6rem;
+}
+.container-2 .home-2 .bx-7 .det {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container-2 .home-2 .bx-7 .det span {
+  font-size: 14px;
+  text-transform: uppercase;
+}
+.container-2 .home-2 .bx-7 .det .num {
+  font-size: 32px;
+}
+.container-2 .home-3 {
+  margin-top: 1rem;
+  display: flex;
+  gap: 1rem;
+}
+.container-2 .home-3 .bx {
+  display: flex;
+  flex-direction: column;
+  background: white;
+  padding: 1rem 2.1rem;
+  border-radius: 0.4rem;
+  box-shadow: 1px 0px 5px -4px rgba(0, 0, 0, 0.75);
+}
+.container-2 .home-3 .bx-8 h3 {
+  text-transform: capitalize;
+}
+.container-2 .home-3 .bx-8 .skills {
+  display: flex;
+  gap: 1rem;
+}
+.container-2 .home-3 .bx-8 .tools {
+  margin-top: 1rem;
+  display: flex;
+  gap: 1rem;
+}
+.container-2 .home-3 .bx-9 span {
+  font-size: 22px;
+  font-weight: bold;
+}
+.container-2 .home-3 .bx-9 .name {
+  margin-left: 1rem;
+}
+.container-2 .home-3 .bx-9 .get {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+}/*# sourceMappingURL=main.css.map */
